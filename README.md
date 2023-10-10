@@ -18,24 +18,10 @@ The Autoregressive Integrated Moving Average (ARIMA)model is a powerful time ser
 
 Model Components: ARIMA combines three components - Autoregressive (AR), Integrated (I), and Moving Average (MA) - to capture complex time series patterns.
 
-AR Component: It accounts for the relationship between the current value and past values. The order of autoregression is denoted by 'p.'
-
-I Component: Differencing is used to achieve stationarity in the data. The order of differencing is denoted by 'd.'
-
-MA Component: It considers the dependency between the current value and past white noise errors. The order of the moving average is denoted by 'q.'
-
-Strengths: ARIMA is adaptable, doesn't assume data distribution, provides accurate forecasts, and doesn't require data transformation.
-
-Typically requires only one numeric column, which contains the univariate time series data we want to forecast. This single column should consist of numerical values representing the observations or measurements taken at different time points.
+Strengths: ARIMA is adaptable, doesn't assume data distribution, provides accurate forecasts..
 
 Prophet Model:
 
 Prophet is a forecasting model developed by Facebook for handling time series data. It uses an additive model approach, fitting non-linear trends by considering yearly, weekly, and daily seasonality, along with holiday effects.
 
 One of the strengths of Prophet is its robustness in handling missing data, shifts in trends, and outliers. Notably, Prophet is designed specifically for time series data, which makes it unnecessary to perform normalization or standardization on the input data.
-
-To work effectively with the Prophet library, you need to provide a dataframe with specific column names and formats. Here's what you need to ensure:
-
-The time column, denoted as "ds," should follow a format that Pandas can recognize. Ideally, it should be in YYYY-MM-DD format for dates or YYYY-MM-DD HH:MM:SS format for timestamps.
-
-The metric column, denoted as "y," must contain numeric values and represents the measurement you aim to forecast.
