@@ -1,4 +1,4 @@
-# Proyecto_Final:
+# Final_project:
 
 The goal of this project is to make a montly predictions of the Ethereum cryptocurrency price for educational purposes only. It's important to note that cryptocurrency price prediction is challenging due to the extreme volatility of these assets.
 
