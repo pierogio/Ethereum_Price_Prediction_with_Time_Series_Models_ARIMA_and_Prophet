@@ -1,6 +1,6 @@
-# Final_project:
+# Analysis and Prediction of Ethereum Prices and Its Correlation with Other Assets:
 
-The goal of this project is to make a montly predictions of the Ethereum cryptocurrency price for educational purposes only. It's important to note that cryptocurrency price prediction is challenging due to the extreme volatility of these assets.
+The goal of this project is to create monthly predictions for the Ethereum cryptocurrency price and to identify correlations between its price fluctuations and the fluctuations of other financial assets for educational purposes only. It's important to note that cryptocurrency price prediction is challenging due to the extreme volatility of these assets.
 
 What is Ethereum?
 
