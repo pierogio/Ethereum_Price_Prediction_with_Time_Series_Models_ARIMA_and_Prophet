@@ -10,9 +10,9 @@ Consideration:
 
 The dataset used in this model covers the period from 2017 to 2023. While significant changes in the data are observed from 2019 onwards, it's important to note that we have chosen not to exclude any data from the full time period for this project. We have opted to retain the entire time period in our analysis, despite the potential for poorer predictive results, to ensure a comprehensive understanding of the dataset's dynamics.
 
-Models
+Models:
 
-ARIMA Model:
+ARIMA Model
 
 The Autoregressive Integrated Moving Average (ARIMA)model is a powerful time series forecasting method known for its adaptability and accuracy. Key points about the ARIMA model include:
 
@@ -20,8 +20,12 @@ Model Components: ARIMA combines three components - Autoregressive (AR), Integra
 
 Strengths: ARIMA is adaptable, doesn't assume data distribution, provides accurate forecasts..
 
-Prophet Model:
+Prophet Model
 
 Prophet is a forecasting model developed by Facebook for handling time series data. It uses an additive model approach, fitting non-linear trends by considering yearly, weekly, and daily seasonality, along with holiday effects.
 
 One of the strengths of Prophet is its robustness in handling missing data, shifts in trends, and outliers. Notably, Prophet is designed specifically for time series data, which makes it unnecessary to perform normalization or standardization on the input data.
+
+Correlation:
+
+The objective is to analyze the correlations that may exist between Ethereum prices and the fluctuations of Bitcoin, Oil, Gold, Vanguard Information Technology ETF, Vanguard Energy Index Fund, and VIX.
