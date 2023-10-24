@@ -1,5 +1,8 @@
 # Analysis and Prediction of Ethereum Prices and Its Correlation with Other Assets:
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)  
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
 The goal of this project is to create monthly predictions for the Ethereum cryptocurrency price and to identify correlations between its price fluctuations and the fluctuations of other financial assets for educational purposes only. It's important to note that cryptocurrency price prediction is challenging due to the extreme volatility of these assets.
 
 What is Ethereum?
